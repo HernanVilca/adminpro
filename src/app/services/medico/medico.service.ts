@@ -6,6 +6,8 @@ import { UsuarioService } from '../usuario/usuario.service';
 import { Medico } from '../../models/medico.model';
 
 import { map } from 'rxjs/operators';
+import swal from 'sweetalert';
+
 
 @Injectable({
   providedIn: 'root'

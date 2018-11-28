@@ -5,7 +5,7 @@ import { UsuarioService } from '../usuario/usuario.service';
 import { Hospital } from '../../models/hospital.model';
 
 import { map } from 'rxjs/operators';
-
+import swal from 'sweetalert';
 
 @Injectable({
   providedIn: 'root'
